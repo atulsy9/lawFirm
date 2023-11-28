@@ -1,0 +1,96 @@
+.mainSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--css-black);
+  color: var(--css-white);
+  height: 990px;
+  width: 100%;
+}
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  margin-top: 53px;
+  width: 80vw;
+  height: 636px;
+  align-items: center;
+}
+
+.pic-sec {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  flex: 1;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.header {
+  font-weight: 500;
+  font-size: 60px;
+}
+
+.headerDescription {
+  font-weight: 500;
+  font-size: 18px;
+  margin-block: 36px;
+  opacity: 30%;
+}
+
+.NavSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  flex: 1;
+}
+
+.outdiv-img {
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: flex-end;
+  width: 467.71px;
+}
+
+.outdiv-img img {
+  margin-top: 24px;
+  position: absolute;
+  bottom: -24px;
+  object-fit: cover;
+}
+
+.formInput {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  width: 438px;
+  height: 74px;
+}
+
+.formInput input {
+  background-color: var(--css-white);
+  opacity: 10%;
+  border: 0;
+  padding: 0;
+  width: 438px;
+  height: 74px;
+  border-radius: 43px;
+  font-weight: 500;
+  size: 16px;
+  align-items: center;
+  padding-left: 56px;
+}
+
+.formInput button {
+  width: 137px;
+  height: 62px;
+  background-color: #e3b748;
+  border-radius: 43px;
+  border: 0;
+  padding: 0;
+  position: absolute;
+  right: 7px;
+}

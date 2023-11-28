@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap");
+
+.navBarSection {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.optionSection {
+  display: flex;
+  flex-direction: row;
+  width: 431px;
+  justify-content: space-between;
+  font-weight: 600;
+}
+
+.navbar-btn {
+  width: 172px;
+  height: 47px;
+  background-color: transparent;
+  color: var(--css-white);
+  border: 2px solid;
+  font-weight: 600;
+  size: 16px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

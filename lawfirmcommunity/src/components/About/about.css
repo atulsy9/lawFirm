@@ -1,0 +1,17 @@
+.mainDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 1132px;
+  height: 174px;
+  margin-top: 172px;
+  align-items: flex-start;
+}
+
+.info-header {
+  font-weight: 600;
+  font-size: 54px;
+  width: 100%;
+  flex-wrap: wrap;
+  border-right: 1px solid #6a6a6a;
+}
