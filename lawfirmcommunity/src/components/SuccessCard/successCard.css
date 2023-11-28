@@ -1,0 +1,29 @@
+.cardMain-Section {
+  display: flex;
+  flex-direction: column;
+  width: 359px;
+  height: 377px;
+  border: 1.4px solid var(--css-white);
+  border-radius: 14px;
+  justify-content: space-between;
+  padding: 24px;
+}
+
+.img-outerDiv {
+  background-color: var(--css-white);
+  width: 101px;
+  height: 101px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 60px;
+}
+
+.cardMain-Section button {
+  width: 121px;
+  height: 43px;
+  background-color: #e3b748;
+  border-radius: 23.5px;
+  border: 0;
+  padding: 0;
+}
