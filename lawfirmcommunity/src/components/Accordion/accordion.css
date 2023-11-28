@@ -1,0 +1,18 @@
+.MuiPaper-root {
+  background-color: transparent !important;
+  color: var(--css-white) !important;
+}
+
+.MuiCollapse-wrapper {
+  font-weight: 500;
+  font-size: 18px;
+  opacity: 30%;
+}
+
+.MuiButtonBase-root {
+  flex-direction: row !important;
+}
+
+.MuiTypography-root {
+  font-family: "Inter", sans-serif !important;
+}

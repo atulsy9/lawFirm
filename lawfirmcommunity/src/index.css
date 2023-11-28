@@ -2,6 +2,7 @@
   --css-primary: #1d1d1d;
   --css-black: #121212;
   --css-white: #ffff;
+  --css-yellow: #e3b748;
   font-family: "Inter", sans-serif;
   background-color: var(--css-primary);
   color: var(--css-white);

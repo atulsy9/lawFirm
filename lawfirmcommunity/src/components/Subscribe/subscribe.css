@@ -1,0 +1,44 @@
+.subscribeHeader {
+  font-weight: 500;
+  font-size: 55px;
+}
+.subscribeMainDiv {
+  margin-top: 15px;
+  width: 1245px;
+  height: 356px;
+  background-color: #474747;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitFrom {
+  width: 686px;
+  height: 53px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 42px;
+}
+
+.submitFrom button {
+  width: 116px;
+  height: 100%;
+  background-color: var(--css-yellow);
+  color: #000000;
+  font-weight: 700;
+  size: 14px;
+  border-radius: 0px 8px 8px 0px;
+}
+
+.submitFrom input {
+  height: 100%;
+  flex: 1;
+  margin-right: 9px;
+  padding: 14px;
+}
+
+.submitFrom input:first-child {
+  border-radius: 8px 0px 0px 8px;
+}

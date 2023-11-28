@@ -1,0 +1,22 @@
+.footerDiv {
+  width: 100%;
+  height: 367px;
+  margin-top: 242px;
+  background-color: var(--css-black);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bottomSection {
+  display: flex;
+  flex-direction: row;
+  width: 425px;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+
+.bottomSection div {
+  font-weight: 400;
+  size: 14px;
+}

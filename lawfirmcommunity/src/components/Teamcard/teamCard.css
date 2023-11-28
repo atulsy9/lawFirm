@@ -1,0 +1,38 @@
+.teamCardMainDiv {
+  width: 344px;
+  height: 109px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 26px;
+  border-radius: 14px;
+}
+
+.teamCardMainDiv:hover {
+  background-color: var(--css-yellow);
+  color: #373737;
+  cursor: pointer;
+}
+
+.teamCardMainDiv:hover .nameDiv {
+  color: #373737;
+}
+
+.teamCardMainDiv:hover .casesCount {
+  color: #000000;
+  opacity: 40%;
+}
+
+.teamMemberdetails {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 22px;
+  display: grid;
+}
+
+.casesCount {
+  font-weight: 400;
+  font-size: 14px;
+  opacity: 30%;
+}

@@ -1,0 +1,5 @@
+.teamMemberOuterDiv {
+  margin-top: 109px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

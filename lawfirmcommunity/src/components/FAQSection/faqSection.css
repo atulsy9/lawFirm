@@ -1,0 +1,10 @@
+.faqMaindiv {
+  width: 1140px;
+  height: 629px;
+  margin-top: 197px;
+}
+
+.faqInnerDiv {
+  display: flex;
+  flex-direction: row;
+}

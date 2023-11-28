@@ -6,7 +6,7 @@ export default () => {
   return (
     <div className="mainSection">
       <div className="heroSection">
-        <Navbar />
+        <Navbar button={true} />
         <div className="pic-sec">
           <div className="NavSection">
             <div className="header">

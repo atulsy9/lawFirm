@@ -1,0 +1,15 @@
+.customerCard-outerDiv {
+  width: 359px;
+  height: 368px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 36px 0 36px 26px;
+  border: 1.4px solid var(--css-white);
+  border-radius: 14px;
+}
+
+.customerCard-outerDiv img {
+  width: 105px;
+  height: 102px;
+}
