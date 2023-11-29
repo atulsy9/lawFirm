@@ -13,3 +13,7 @@
   width: 105px;
   height: 102px;
 }
+
+.customerCard-outerDiv:hover {
+  background-color: #2e2e2e;
+}

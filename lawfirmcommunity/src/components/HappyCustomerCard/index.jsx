@@ -3,7 +3,7 @@ import "./happyCustomerCard.css";
 // eslint-disable-next-line import/no-anonymous-default-export
 export default ({ name, color, imgsrc }) => {
   return (
-    <div className="customerCard-outerDiv" style={{ backgroundColor: color }}>
+    <div className="customerCard-outerDiv">
       <img src={imgsrc} alt="customer" />
       <div style={{ fontWeight: "600", fontSize: "24px" }}>{name}</div>
       <div style={{ fontWeight: "400", fontSize: "14px" }}>Ceo of Hunt</div>

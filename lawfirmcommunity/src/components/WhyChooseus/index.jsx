@@ -7,9 +7,9 @@ export default () => {
     <div className="main-Section">
       <div className="choose-Header">Why Choose us?</div>
       <div className="successCard-outer">
-        <SuccessCard successRate="98%" color="#1D1D1D" />
-        <SuccessCard successRate="100%" color="#2E2E2E" />
-        <SuccessCard successRate="100%" color="#1D1D1D" />
+        <SuccessCard successRate="98%" />
+        <SuccessCard successRate="100%" />
+        <SuccessCard successRate="100%" />
       </div>
     </div>
   );

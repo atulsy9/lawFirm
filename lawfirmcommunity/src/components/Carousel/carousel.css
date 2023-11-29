@@ -1,0 +1,26 @@
+.carouselMainDiv {
+  position: relative;
+  margin-top: 104px;
+}
+
+.arrow {
+  width: 91px;
+  height: 91px;
+  background-color: var(--css-white);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0;
+  top: -190px;
+}
+
+.right-arrow {
+  right: 110px;
+}
+
+.arrow:hover {
+  background-color: var(--css-yellow);
+  cursor: pointer;
+}

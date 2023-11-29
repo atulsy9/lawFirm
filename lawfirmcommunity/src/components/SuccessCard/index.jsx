@@ -1,9 +1,9 @@
 import "./successCard.css";
 
 // eslint-disable-next-line import/no-anonymous-default-export
-export default ({ successRate, color }) => {
+export default ({ successRate }) => {
   return (
-    <div className="cardMain-Section" style={{ backgroundColor: color }}>
+    <div className="cardMain-Section">
       <div className="img-outerDiv">
         <img src="./giftIcon.png" alt="giftIcon" />
       </div>

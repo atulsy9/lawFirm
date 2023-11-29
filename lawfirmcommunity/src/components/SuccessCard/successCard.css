@@ -9,6 +9,10 @@
   padding: 24px;
 }
 
+.cardMain-Section:hover {
+  background-color: #2e2e2e;
+}
+
 .img-outerDiv {
   background-color: var(--css-white);
   width: 101px;
