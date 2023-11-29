@@ -1,5 +1,4 @@
 import Carousel from "../Carousel";
-import HappyCustomerCard from "../HappyCustomerCard";
 import "./happyClients.css";
 
 // eslint-disable-next-line import/no-anonymous-default-export
